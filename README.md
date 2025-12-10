@@ -1,163 +1,112 @@
 # 3D Portfolio Website
 
-Computer Science and Technology enthusiast building AI and full-stack solutions. Projects include solar tracking, smart traffic control, voice emotion recognition, animal detection, virtual try-on systems, and AI-powered e-commerce. Passionate about innovation, problem-solving, and scalable tech development.
+Interactive 3D portfolio for **Munirangadu Kuruva** showcasing AI-first products, full-stack engineering, and community tech initiatives.
 
-A modern, interactive 3D portfolio website showcasing professional experience, skills, projects, and certifications with visual effects and polished animations.
+## ✨ Why It Stands Out
 
-## Description
+- **Immersive visuals** powered by Three.js canvases (desktop rig, planet, particle bursts, matrix rain, wave fields).
+- **Motion-rich storytelling** with Framer Motion, glitch typography, typewriter hooks, and animated scroll progress cues.
+- **AI-centric narrative** weaving together ONNX pipelines, NLP, computer vision, IoT, and data storytelling initiatives.
+- **Conversion-ready contact flow** featuring EmailJS integration, real-time validation, and social media quick links.
+- **Content automation friendly** constants file centralizes services, experiences, certifications, and project metadata.
 
-This portfolio website is a cutting-edge web application built with React and Three.js, featuring immersive 3D graphics, smooth animations, and an engaging user experience. The site presents my professional journey as a Full-Stack Developer and Integrated M.Tech (CSE) student.
+## 🧠 Highlights At A Glance
 
-### Key Features
+- Hero section blends animated profile halo, responsive parallax, and AI mantra pulled from a custom typewriter hook.
+- About section pairs glitch headers with GitHub activity cards and multi-lingual, impact-driven storytelling.
+- Experience timeline and certifications are populated from structured data for easy resume updates.
+- Works carousel surfaces flagship repos such as SizeFit AI, Virtual Try-On Avatar, and Solar Tracking System.
+- Utility components (custom cursor, particle bursts, terminal window) are opt-in via modular imports.
 
-- **3D Interactive Elements**: Animated 3D models including desktop PCs, planets, and floating objects using Three.js
-- **Dynamic Wave Background**: Real-time animated wave effects create a mesmerizing backdrop
-- **Smooth Animations**: Framer Motion transitions and scroll-based animations
-- **Custom Cursor Effects**: Interactive cursor with trailing effects and click ripples
-- **Typewriter Effect**: Automated typing animation for skill descriptions
-- **Matrix Rain Effect**: Cyberpunk-inspired visual effect layer
-- **Terminal Window**: Terminal-style component for a developer aesthetic
-- **Particle System**: Dynamic particle burst effects for interactivity
-- **Scroll Progress Indicator**: Visual feedback for page scroll position
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **Glitch Text Effects**: Eye-catching text animations
-- **Floating Code Snippets**: Background code elements for developer branding
-
-## Tech Stack
-
-### Frontend Framework and Libraries
-- **React 18**
-- **Vite**
-- **Three.js** (via @react-three/fiber and @react-three/drei)
-- **Framer Motion**
-- **React Router DOM**
-
-### Styling
-- **Tailwind CSS**
-- **PostCSS**
-- Custom CSS animations
-
-### Additional Tools
-- **React Icons**
-- **React Vertical Timeline**
-- **EmailJS**
-- **ESLint**
-
-## Project Structure
-
-```
-portfolio/
- public/
-   desktop_pc/       # 3D model textures
-   planet/           # Planet 3D model textures
-   Logo1.png         # Website logo
-   Profile.jpg       # Profile image
-   resume.pdf        # Resume document
- src/
-   assets/           # Image assets and icons
-     company/        # Company logos
-     tech/           # Technology icons
-   components/       # React components
-     canvas/         # 3D canvas components
-   constants/        # Constants and data
-   hoc/              # Higher-order components
-   hooks/            # Custom React hooks
-   utils/            # Utility functions
-   App.jsx           # Main application component
-   main.jsx          # Application entry point
-   styles.js         # Style configuration
-   index.css         # Global styles
- index.html          # HTML template
- package.json        # Dependencies and scripts
- vite.config.js      # Vite configuration
- tailwind.config.cjs # Tailwind CSS configuration
- postcss.config.cjs  # PostCSS configuration
-```
-
-## Sections
-
-1. **Hero** - Animated introduction with profile picture, name, and social links
-2. **About** - Professional overview and background
-3. **Skills** - Technology stack with interactive 3D ball animations
-4. **Experience** - Work history with vertical timeline
-5. **Projects** - Portfolio of completed works with descriptions
-6. **Certifications** - Academic highlights and achievements
-7. **Contact** - Interactive contact form with EmailJS integration
-
-## Installation and Setup
-
-### Prerequisites
-- Node.js (v18 or newer recommended)
-- npm package manager
-
-### Steps
-
-1. Clone the repository:
+## 🚀 Quick Start
 
 ```bash
 git clone https://github.com/kuruvamunirangadu/portfolio.git
 cd portfolio
-```
-
-2. Install dependencies:
-
-```bash
 npm install
-```
-
-3. Start the development server:
-
-```bash
 npm run dev -- --host
 ```
 
-4. Open your browser and navigate to the URL printed in the terminal (defaults to `http://localhost:5173`).
+The dev server prints both `localhost` and LAN URLs (handy for mobile previews). Default port is `5173`.
 
-## Build for Production
-
-Create an optimized production build:
+### Production Build
 
 ```bash
 npm run build
-```
-
-Preview the production build locally:
-
-```bash
 npm run preview
 ```
 
-## Performance Features
+## 🛠️ Tech Stack
 
-- **Code Splitting** for faster initial loads
-- **Lazy Loading** for route-based bundles
-- **Optimized Assets** with compressed images and textures
-- **Hardware-Accelerated Animations** using CSS and Three.js
-- **Responsive Images** tailored per device
+- **Core**: React 18, Vite, React Router DOM.
+- **3D & Animation**: Three.js via `@react-three/fiber` and `@react-three/drei`, Framer Motion.
+- **Styling**: Tailwind CSS, PostCSS, custom keyframes, utility styles.
+- **Tooling**: ESLint, EmailJS, React Icons, React Vertical Timeline.
 
-## Browser Support
+## 🗂️ Project Structure
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+```
+portfolio/
+ public/
+   desktop_pc/       # 3D model assets
+   planet/           # Planet model assets
+   Logo1.png         # Primary logo
+   Profile.jpg       # Hero profile image
+   resume.pdf        # Downloadable resume
+ src/
+   assets/           # Importable icons and images
+   components/       # UI building blocks
+     canvas/         # Three.js scenes (desktop, stars, waves, etc.)
+   constants/        # Data for services, experiences, projects
+   hoc/              # Section wrapper utilities
+   hooks/            # Custom hooks (typewriter, cursor helpers)
+   utils/            # Animation variants and helpers
+   App.jsx           # Route composition
+   main.jsx          # Entry point
+   styles.js         # Shared style tokens
+   index.css         # Global Tailwind layer
+ configuration files (Vite, Tailwind, PostCSS)
+```
 
-## Contact
+## 📚 Site Sections
 
-- **Email**: kuruvamunirangadu.2005@gmail.com
-- **LinkedIn**: [Munirangadu Kuruva](https://www.linkedin.com/in/munirangadu-kuruva)
-- **GitHub**: [kuruvamunirangadu](https://github.com/kuruvamunirangadu)
+1. **Hero** – Animated introduction, call-to-action buttons, and social links.
+2. **About** – Narrative profile, achievements list, GitHub stats card.
+3. **Skills** – Interactive tech orbit showing primary stacks and tooling.
+4. **Experience** – Timeline of roles at ADM Education, Krislynx LLP, and Jamuna Foundation.
+5. **Projects** – Gallery of AI, IoT, and full-stack builds with repo links.
+6. **Certifications** – Academic milestones plus Power BI upskilling credential.
+7. **Contact** – EmailJS form, direct email, and WhatsApp/phone touchpoints.
 
-## License
+## 💼 Experience Snapshot
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- **Krislynx LLP – FullStack Developer & UI/UX Lead**: TradeSphere Global platform, student-parent portal, Power BI insight layers.
+- **ADM Education & Welfare Society – Content Writing Intern**: Community storytelling, campaign amplification, cross-channel assets.
+- **Jamuna Foundation – Web Developer**: Donation tools, educational quiz systems, volunteer automation flows.
 
-## Acknowledgments
+## 🔍 Featured Projects
 
-- Three.js community for 3D inspiration
-- React Three Fiber for seamless React integration
-- Framer Motion for powerful animation tools
-- Tailwind CSS for rapid styling
+- **SizeFit AI** – ONNX-powered e-commerce fit prediction pipeline.
+- **Virtual Try-On Avatar Platform** – Next.js + FastAPI garment simulation with physics-based draping.
+- **Multi-Task Emotion & Safety Classification** – NLP stack covering emotions, VAD, safety filters, and style detection.
+- **Solar Tracking System** – Computer vision-guided solar array automation.
+- **my-ai-assistant** – Voice-enabled assistant combining OpenAI APIs with task automation.
+
+Full project list lives in `src/constants/index.js` and feeds the Works carousel automatically.
+
+## 📬 Contact
+
+- Email: `kuruvamunirangadu.2005@gmail.com`
+- LinkedIn: [Munirangadu Kuruva](https://www.linkedin.com/in/munirangadu-kuruva)
+- GitHub: [kuruvamunirangadu](https://github.com/kuruvamunirangadu)
+
+## 📨 Feedback & Contributions
+
+Issues and pull requests are welcome. Feel free to file feature ideas, report bugs, or open discussions in the GitHub repository.
+
+## 📝 License
+
+Released under the MIT License. See [`LICENSE`](LICENSE) for full text.
 
 ---
 
