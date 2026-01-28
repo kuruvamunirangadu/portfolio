@@ -2,6 +2,10 @@
 
 Interactive 3D portfolio for **Munirangadu Kuruva** showcasing AI-first products, full-stack engineering, and community tech initiatives.
 
+## 🔗 Live Link
+
+**👉 [Visit Live Portfolio](https://portfolio-orcin-tau-65.vercel.app)**
+
 ## ✨ Why It Stands Out
 
 - **Immersive visuals** powered by Three.js canvases (desktop rig, planet, particle bursts, matrix rain, wave fields).
